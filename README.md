@@ -23,6 +23,7 @@ The installation of mamba-ssm package can refer to https://github.com/state-spac
 
 ## Run
 To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh. For exmaple, run etth1.sh:
+
 `./etth1.sh`
 
 ## Acknowledgement
