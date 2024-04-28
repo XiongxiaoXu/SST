@@ -6,10 +6,8 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 </p>
 
 ## Contributions
-• We are the first to explore the potential of the integration of Mamba and Transformer in time series.
-
-• We propose to adopt a hybrid architecture Mambaformer to capture long-short range dependencies in time series.
-
+• We are the first to explore the potential of the integration of Mamba and Transformer in time series. <br />
+• We propose to adopt a hybrid architecture Mambaformer to capture long-short range dependencies in time series.<br />
 • We conduct a comparative study to demonstrate the superiority of Mambaformer family compared with Mamba and Transformer in long-short range time series forecasting.
 
 ## Models and Core Codes
