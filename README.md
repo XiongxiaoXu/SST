@@ -14,9 +14,13 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
   <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
 </p>
 
+<p align="center">
+  <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
+</p>
+
 
 ## Getting Started
-**Environment**
+### Environment
 * python            3.10.13
 * torch             1.12.1+cu116
 * mamba-ssm         1.2.0.post1
@@ -25,8 +29,9 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 
 The installation of mamba-ssm package can refer to https://github.com/state-spaces/mamba. 
 
-**Run**
+### Run
 To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh in a terminal as follows:
+
 `./etth1.sh`
 
 `./electricity.sh`
