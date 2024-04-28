@@ -10,7 +10,10 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 * **Mamba** adopts two Mamba block as a layer. The architecture is at models/Mamba.py, and the layer is at layers/Mamba_Family.py -> Mamba_Layer.
 * **Transformer** is a decoder-only Transformer architecture. the architecture is at models/DecoderOnly.py, and the layer is at layers/Transformer_EncDec.py -> Decoder_wo_cross_Layer.
 
-<img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
+<p align="center">
+  <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
+</p>
+
 
 ## Getting Started
 ## Environment
@@ -23,9 +26,10 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 The installation of mamba-ssm package can refer to https://github.com/state-spaces/mamba. 
 
 ## Run
-To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh. For exmaple, run etth1.sh in a terminal:
-
+To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh in a terminal as follows:
 `./etth1.sh`
+`./electricity.sh`
+`./exchange_rate.sh`
 
 ## Acknowledgement
 We would like to greatly thank the following awesome projects:
