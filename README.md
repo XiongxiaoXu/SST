@@ -4,7 +4,7 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 
 ## Models and Core Codes
-* \textbf{Mambaformer}: a pre-processing Mamba block and Mambaformer layers without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
+* **Mambaformer**: a pre-processing Mamba block and Mambaformer layers without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
 * Attention-Mamba: a Attention-Mamba layer where an attention layer is followed by a Mamba layer with a positional encoding. The architecture is at models/AttMam.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
 * Mamba-Attention:  a Mamba-Attention layer where a Mamba block layer is followed by an attention layer without a positional encoding. The architecture is at models/MamAtt.py, and the layer is at layers/Mamba_Family.py -> MA_Layer
 * Mamba: two Mamba block as a layer. The architecture is at models/Mamba.py, and the layer is at layers/Mamba_Family.py -> Mamba_Layer
