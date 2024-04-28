@@ -27,7 +27,10 @@ To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exch
 `./etth1.sh`
 
 ## Acknowledgement
-We would like to greatly thank 
+We would like to greatly thank the following awesome projects:
+Mamba (https://github.com/state-spaces/mamba)
+PatchTST (https://github.com/yuqinie98/PatchTST)
+iTransformer (https://github.com/thuml/iTransformer)
 
 ## Cite
 If you find this repository useful for your work, please consider citing the paper as follows:
