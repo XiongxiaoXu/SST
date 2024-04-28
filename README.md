@@ -22,7 +22,7 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 The installation of mamba-ssm package can refer to https://github.com/state-spaces/mamba. 
 
 ## Run
-To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh. For exmaple, run etth1.sh:
+To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exchange_rate.sh. For exmaple, run etth1.sh in a terminal:
 
 `./etth1.sh`
 
