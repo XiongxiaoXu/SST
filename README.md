@@ -1,5 +1,6 @@
 # Mambaformer-in-Time-Series
 This repo is the official Pytorch implementation of paper: "[Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting](https://arxiv.org/pdf/2404.14757)".
+
 <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 
 ## Code
