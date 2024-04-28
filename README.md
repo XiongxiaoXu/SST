@@ -1,7 +1,9 @@
 # Mambaformer-in-Time-Series
 This repo is the official Pytorch implementation of paper: "[Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting](https://arxiv.org/pdf/2404.14757)".
 
-<img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
+<p align="center">
+  <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
+</p>
 
 ## Models and Core Codes
 * **Mambaformer** leverages a pre-processing Mamba block and Mambaformer layer without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer.
@@ -13,11 +15,6 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 <p align="center">
   <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
 </p>
-
-<p align="center">
-  <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
-</p>
-
 
 ## Getting Started
 ### Environment
