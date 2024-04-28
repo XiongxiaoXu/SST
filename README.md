@@ -4,11 +4,11 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 
 ## Models and Core Codes
-* **Mambaformer** leverages a pre-processing Mamba block and Mambaformer layer without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
-* **Attention-Mamba** adopts a Attention-Mamba layer where an attention layer is followed by a Mamba layer with a positional encoding. The architecture is at models/AttMam.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
-* **Mamba-Attention** adopts a Mamba-Attention layer where a Mamba block layer is followed by an attention layer without a positional encoding. The architecture is at models/MamAtt.py, and the layer is at layers/Mamba_Family.py -> MA_Layer
-* **Mamba** adopts two Mamba block as a layer. The architecture is at models/Mamba.py, and the layer is at layers/Mamba_Family.py -> Mamba_Layer
-* **Transformer** is a decoder-only Transformer architecture. the architecture is at models/DecoderOnly.py, and the layer is at layers/Transformer_EncDec.py -> Decoder_wo_cross_Layer
+* **Mambaformer** leverages a pre-processing Mamba block and Mambaformer layer without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer.
+* **Attention-Mamba** adopts a Attention-Mamba layer where an attention layer is followed by a Mamba layer with a positional encoding. The architecture is at models/AttMam.py, and the layer is at layers/Mamba_Family.py -> AM_Layer.
+* **Mamba-Attention** adopts a Mamba-Attention layer where a Mamba block layer is followed by an attention layer without a positional encoding. The architecture is at models/MamAtt.py, and the layer is at layers/Mamba_Family.py -> MA_Layer.
+* **Mamba** adopts two Mamba block as a layer. The architecture is at models/Mamba.py, and the layer is at layers/Mamba_Family.py -> Mamba_Layer.
+* **Transformer** is a decoder-only Transformer architecture. the architecture is at models/DecoderOnly.py, and the layer is at layers/Transformer_EncDec.py -> Decoder_wo_cross_Layer.
 
 <img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
 
