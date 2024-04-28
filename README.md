@@ -3,14 +3,16 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 
 <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 
-## Code
+## Model and Core Codes
 The description of the core code files.
-* models/MambaFormer.py: Mambaformer
-* models/AttMam.py: Attention-Mamba hybrid
-* models/MamAtt.py: Mamba-Attention hybrid
-* models/Mamba.py: Mamba
-* models/DecoderOnly.py: Decoder-Only Transformer
-<img width="1381" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/c0cc756c-f1b5-4a88-9c52-e1c10dcd97db">
+* Mambaformer: the architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
+* Attention-Mamba: the architecture is at models/AttMam.py, and the layer is at layers/Mamba_Family.py -> AM_Layer
+* Mamba-Attention: the architecture is at models/MamAtt.py, and the layer is at layers/Mamba_Family.py -> MA_Layer
+* Mamba: the architecture is at models/Mamba.py, and the layer is at layers/Mamba_Family.py -> Mamba_Layer
+* Transformer: the architecture is at models/DecoderOnly.py, and the layer is at layers/Transformer_EncDec.py -> Decoder_wo_cross_Layer
+
+<img width="1308" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/3cdd9d58-e8bc-4aa9-a836-16045554e927">
+
 
 ## Getting Started
 ## Environment
