@@ -19,6 +19,7 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
 * mamba-ssm         1.2.0.post1
 * numpy             1.26.4
 * transformers      4.38.2
+
 The installation of mamba-ssm package can refer to https://github.com/state-spaces/mamba. 
 
 ## Run
@@ -28,9 +29,10 @@ To get the result of Table 2, run the scripts etth1.sh, electricity.sh, and exch
 
 ## Acknowledgement
 We would like to greatly thank the following awesome projects:
+
 Mamba (https://github.com/state-spaces/mamba)
-PatchTST (https://github.com/yuqinie98/PatchTST)
-iTransformer (https://github.com/thuml/iTransformer)
+
+LTSF-Linear (https://github.com/cure-lab/LTSF-Linear)
 
 ## Cite
 If you find this repository useful for your work, please consider citing the paper as follows:
