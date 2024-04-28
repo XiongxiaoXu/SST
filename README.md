@@ -5,6 +5,11 @@ This repo is the official Pytorch implementation of paper: "[Integrating Mamba a
   <img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 </p>
 
+## Contributions
+• We are the first to explore the potential of the integration of Mamba and Transformer in time series.
+• We propose to adopt a hybrid architecture Mambaformer to capture long-short range dependencies in time series.
+• We conduct a comparative study to demonstrate the superiority of Mambaformer family compared with Mamba and Transformer in long-short range time series forecasting.
+
 ## Models and Core Codes
 * **Mambaformer** leverages a pre-processing Mamba block and Mambaformer layer without a positional encoding. The architecture is at models/MambaFormer.py, and the layer is at layers/Mamba_Family.py -> AM_Layer.
 * **Attention-Mamba** adopts a Attention-Mamba layer where an attention layer is followed by a Mamba layer with a positional encoding. The architecture is at models/AttMam.py, and the layer is at layers/Mamba_Family.py -> AM_Layer.
