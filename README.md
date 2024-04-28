@@ -1,13 +1,15 @@
 # Mambaformer-in-Time-Series
 This repo is the official Pytorch implementation of paper: "[Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting](https://arxiv.org/pdf/2404.14757)".
+<img width="525" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/bb84159b-4a49-41f4-9ae3-e16606b9d742">
 
 ## Code
 The description of the core code files.
-* models/MambaFormer.py: implementation of of Mambaformer
-* models/AttMam.py: implementation of  Attention-Mamba hybrid
-* models/MamAtt.py: implementation of Mamba-Attention hybrid
-* models/Mamba.py: implementation of Mamba
-* models/DecoderOnly.py: implementation of decoder-only Transformer
+* models/MambaFormer.py: Mambaformer
+* models/AttMam.py: Attention-Mamba hybrid
+* models/MamAtt.py: Mamba-Attention hybrid
+* models/Mamba.py: Mamba
+* models/DecoderOnly.py: Decoder-Only Transformer
+<img width="1381" alt="image" src="https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series/assets/34889516/c0cc756c-f1b5-4a88-9c52-e1c10dcd97db">
 
 ## Getting Started
 ## Environment
