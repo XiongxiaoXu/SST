@@ -1,8 +1,8 @@
 # SST code will be coming soon!
 # SST have replaced the Mambaformer and the corresponding paper has already updated in the arxiv.
-# SST Paper: "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
+# SST paper: "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
 
-The following shows the previous content (Mambaformer).
+# The following shows the previous content (Mambaformer).
 # Mambaformer-in-Time-Series
 This is an offical implementation of Mambaformer: "[Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757v1)".
 
