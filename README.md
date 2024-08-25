@@ -50,7 +50,11 @@ We would like to greatly thank the following awesome projects:
 
 Mamba (https://github.com/state-spaces/mamba)
 
+PatchTST (https://github.com/yuqinie98/PatchTST)
+
 LTSF-Linear (https://github.com/cure-lab/LTSF-Linear)
+
+Autoformer (https://github.com/thuml/Autoformer)
 
 ## Cite
 If you find this repository useful for your work, please consider citing the paper as follows:
