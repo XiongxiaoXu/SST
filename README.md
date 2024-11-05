@@ -38,7 +38,7 @@ LTSF-Linear (https://github.com/cure-lab/LTSF-Linear)
 Autoformer (https://github.com/thuml/Autoformer)
 
 ## Cite
-If you find this repository useful for your work, please consider citing the paper as follows:
+If you find this repository useful for your work, please consider citing the paper as follows (bib format from arxiv):
 
 ```bibtex
 @misc{xu2024sstmultiscalehybridmambatransformer,
