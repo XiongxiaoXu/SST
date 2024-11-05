@@ -1,6 +1,8 @@
 # SST
 The SST (State Space Transformer) code for the paper "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
 
+<img width="1075" alt="image" src="https://github.com/user-attachments/assets/93128514-7ada-4f3e-9c5e-3fad8bde8ae1">
+
 ## Contributions
 * We propose to **decompose time series into global patterns and local variations according to ranges**. We identify that global patterns as the focus of long range and local variations should be captured in short range.
 * To effectively capture long-term patterns and short-term variations, we leverage the patching to create coarser PTS in long range and finer PTS in short range. Moreover, we introduce **a new metric to precisely quantify the resolution of PTS**.
