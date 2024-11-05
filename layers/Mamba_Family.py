@@ -55,3 +55,25 @@ class Mamba_Layer(nn.Module):
         x = self.norm(x)
 
         return x
+
+class Long_Layer(nn.Module):
+    def __init__(self, mamba, d_model, d_ff=None,
+                 dropout=0.1, activation="relu"):
+        super(Long_Layer, self).__init__()
+        d_ff = d_ff or 4 * d_model
+        self.mamba = mamba
+        self.lin1 = nn.Linear(d_model, d_ff)
+        self.lin2 = nn.Linear(d_ff, d_model)
+        self.ln = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        self.activation = F.relu if activation == "relu" else F.gelu
+
+    def forward(self, x):
+        x = self.mamba(x)
+
+        x = self.lin2(self.activation(self.lin1(x)))
+
+        return x
+
+
+
