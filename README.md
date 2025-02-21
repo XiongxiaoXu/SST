@@ -41,13 +41,10 @@ Autoformer (https://github.com/thuml/Autoformer)
 If you find this repository useful for your work, please consider citing the paper as follows (bib format from arxiv):
 
 ```bibtex
-@misc{xu2024sstmultiscalehybridmambatransformer,
-      title={SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting}, 
-      author={Xiongxiao Xu and Canyu Chen and Yueqing Liang and Baixiang Huang and Guangji Bai and Liang Zhao and Kai Shu},
-      year={2024},
-      eprint={2404.14757},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2404.14757}, 
+@article{xu2024sst,
+  title={SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting},
+  author={Xu, Xiongxiao and Chen, Canyu and Liang, Yueqing and Huang, Baixiang and Bai, Guangji and Zhao, Liang and Shu, Kai},
+  journal={arXiv preprint arXiv:2404.14757},
+  year={2024}
 }
 ```
