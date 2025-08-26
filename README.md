@@ -1,5 +1,5 @@
 # SST
-The SST (State Space Transformer) code for the paper "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
+The SST paper has been accepted into CIKM'25. The SST (State Space Transformer) code for the paper "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
 
 <img width="1075" alt="image" src="https://github.com/user-attachments/assets/93128514-7ada-4f3e-9c5e-3fad8bde8ae1">
 
