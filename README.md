@@ -1,5 +1,5 @@
 # SST
-The SST paper has been accepted into CIKM'25. The SST (State Space Transformer) code for the paper "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
+The SST (State Space Transformer) paper has been accepted into CIKM'25. This repo is the code for the paper "[SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting](https://arxiv.org/abs/2404.14757)".
 
 <img width="1075" alt="image" src="https://github.com/user-attachments/assets/93128514-7ada-4f3e-9c5e-3fad8bde8ae1">
 
@@ -38,13 +38,14 @@ LTSF-Linear (https://github.com/cure-lab/LTSF-Linear)
 Autoformer (https://github.com/thuml/Autoformer)
 
 ## Cite
-If you find this repository useful for your work, please consider citing the paper as follows (bib format from arxiv):
+If you find this repository useful for your work, please consider citing the paper as follows:
 
 ```bibtex
-@article{xu2024sst,
-  title={SST: Multi-Scale Hybrid Mamba-Transformer Experts for Long-Short Range Time Series Forecasting},
+@inproceedings{xu2025sst,
+  title={SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting},
   author={Xu, Xiongxiao and Chen, Canyu and Liang, Yueqing and Huang, Baixiang and Bai, Guangji and Zhao, Liang and Shu, Kai},
-  journal={arXiv preprint arXiv:2404.14757},
-  year={2024}
+  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+  pages={3655--3665},
+  year={2025}
 }
 ```
